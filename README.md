@@ -1,12 +1,10 @@
-# freshservice-api-customobjects
+# freshservice-api-scripts
 
-Update Custom Object tables in Freshservice
+Read and update content in Freshservice tenants via their REST API
 
 ## Overview
 
-This is an example of reading from the Freshservice API, forming the results into a json object and posting that object to create some new records in a Freshservice Custom Object table.
-
-The example checks for Agent Groups that have been created but do not exist in the Custom Object table yet, then creates those missing records.
+This is has examples of reading from the Freshservice API, forming the results into a json object and making changes back in the tenant.
 
 ## Setup
 
